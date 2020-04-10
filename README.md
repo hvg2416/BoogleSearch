@@ -7,4 +7,4 @@ Below are the screenshots of the app ...
 
 ![Screen Shot 1](https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_1.jpg)
 
-![Screen Shot 2](https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_1.jpg)
+![Screen Shot 2](https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_2.jpg)
