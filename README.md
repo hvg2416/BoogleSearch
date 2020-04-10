@@ -5,6 +5,6 @@ App will list the books including the books title, authors, a small description 
 
 Below are the screenshots of the app ...
 
-<img src="https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_1.jpg" width="100" height="100">
+<img src="https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_1.jpg" width="500" height="400">
 
-![Screen Shot 2](https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_2.jpg)
+<img src="https://github.com/hvg2416/BoogleSearch/blob/master/Screenshot_2.jpg" width="700" height="400">
