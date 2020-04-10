@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/homepage_backgroung_image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:text="@string/homepage_quote"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:textSize="30sp"/>
+
+    <!--<Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="279dp"
+        android:background="@drawable/round_search_btn_bckgrnd"
+        android:onClick="search_button_function"
+        android:text="ENTER LIBRARY"
+        android:textColor="#000000"
+        android:typeface="normal" />
+     -->
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/branding_quote"
+        android:textColor="#016C2D"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="384dp"
+        android:layout_height="259dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-107dp"
+        android:layout_marginLeft="-107dp"
+        android:layout_marginBottom="-5dp"
+        app:srcCompat="@drawable/homepage_cartoon_book"/>
+
+</RelativeLayout>
