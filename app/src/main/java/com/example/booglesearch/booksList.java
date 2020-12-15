@@ -53,7 +53,7 @@ public class booksList extends AppCompatActivity {
                 Toast.makeText(this, "Enter Search Keyword", Toast.LENGTH_SHORT).show();
             }
             Log.d("DEBUG_MESSAGE: ", "inside onCreate");
-            buildURI = Uri.parse(requestBaseURL).buildUpon().appendQueryParameter("q", entered_text).appendQueryParameter("key", "AIzaSyCSqo9zXaBiy3CfbTkMHxmq4EPJXqGZTEM").build();
+            buildURI = Uri.parse(requestBaseURL).buildUpon().appendQueryParameter("q", entered_text).appendQueryParameter("key", "YOUR_API_KEY").build();
             try {
                 requestURL = new URL(buildURI.toString()).toString();
                 Log.d("FINAL URL: ", requestURL);
